@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123" height="88" viewBox="0 0 123 88">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdee80"/>
+      <stop offset="1" stop-color="#cfa84e"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="사각형_12" data-name="사각형 12" width="123" height="88" rx="16" transform="translate(634 463)" stroke="#555" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_3" data-name="그룹 3" transform="translate(-634 -463)">
+    <g id="사각형_3" data-name="사각형 3" transform="translate(634 463)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="123" height="88" rx="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="122" height="87" rx="15.5" fill="none"/>
+    </g>
+    <g id="사각형_4" data-name="사각형 4" transform="translate(634 463)" stroke="#555" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="123" height="88" rx="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="122" height="87" rx="15.5" fill="none"/>
+    </g>
+    <g id="마스크_그룹_1" data-name="마스크 그룹 1" clip-path="url(#clip-path)">
+      <g id="그룹_1" data-name="그룹 1">
+        <g id="사각형_7" data-name="사각형 7" transform="translate(634 492)" fill="none" stroke="#555" stroke-width="1">
+          <rect width="123" height="30" stroke="none"/>
+          <rect x="0.5" y="0.5" width="122" height="29" fill="none"/>
+        </g>
+        <rect id="사각형_8" data-name="사각형 8" width="60" height="60" transform="translate(653.574 449.574) rotate(-45)" fill="none" stroke="#555" stroke-width="1"/>
+        <rect id="사각형_9" data-name="사각형 9" width="60" height="60" transform="translate(653.574 564.426) rotate(-45)" fill="none" stroke="#555" stroke-width="1"/>
+        <rect id="사각형_10" data-name="사각형 10" width="1" height="28" transform="translate(685 493)" fill="#555"/>
+        <rect id="사각형_11" data-name="사각형 11" width="1" height="28" transform="translate(705 493)" fill="#555"/>
+      </g>
+    </g>
+  </g>
+</svg>

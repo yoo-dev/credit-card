@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #6d00a7, #45008b);
+}
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(32px);
+}
+.circle {
+  position: absolute;
+  border-radius: 100%;
+}
+.circle-0 {
+  top: calc(50% - 683px);
+  left: calc(50% - 852px);
+  width: 856px;
+  height: 856px;
+  background-image: linear-gradient(128deg, #fc3198 50%, #fda8bb 100%);
+  z-index: 3;
+}
+.circle-1 {
+  top: calc(50% - 859px);
+  left: calc(50% - 130px);
+  width: 1146px;
+  height: 1146px;
+  background-image: linear-gradient(to bottom, #9d81fd, #fd81f3);
+  z-index: 1;
+}
+.circle-2 {
+  top: calc(50% + 51px);
+  left: calc(50% + 146px);
+  width: 482px;
+  height: 482px;
+  background-image: linear-gradient(139deg, #58adfd 7%, #8b39fd 63%);
+  z-index: 2;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 856px;
+  height: 540px;
+  background-image: linear-gradient(122deg, #912df7, #912df7 42%, #4e19fe);
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.32),
+    16px 32px 64px rgba(0, 0, 0, 0.32);
+  padding: 75px 98px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.64);
+}
+.card-background {
+  z-index: 10;
+}
+.card .content {
+  position: relative;
+  z-index: 20;
+}
+.card .title {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 77px;
+}
+.card .ic-chip {
+  margin-bottom: 45px;
+}
+.card .number {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 7.5px;
+  margin-bottom: 45px;
+}
+.card .name-and-exp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card .name {
+  font-size: 32px;
+  font-weight: bold;
+}
+.card .exp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card .exp .exp-label {
+  font-size: 24px;
+  margin-right: 8px;
+}
+.card .exp .exp-date {
+  font-size: 32px;
+  font-weight: bold;
+}
